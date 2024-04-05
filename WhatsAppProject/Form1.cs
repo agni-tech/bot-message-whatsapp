@@ -10,7 +10,6 @@ namespace WhatsAppProject
         private void Form1_Load(object sender, EventArgs e)
         {
             WhatsAppSendMessage w = new WhatsAppSendMessage();
-            //w.SendMessageWithImage("Hello World, Filipe Brito", "C:\\Users\\agbct\\Pictures\\temp\\teste.jpg", "@filipebritodev");
             w.SendMessageWithEmoji("Hello World, Agni Campos", new List<string> { "robo" }, "@agni-tech");
         }
     }
